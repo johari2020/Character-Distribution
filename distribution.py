@@ -73,7 +73,6 @@ z = (st.count('y'))
 i=len(st)
 
 while i > 0:
-    i-=1 
     print("a"*(st.count('a')))
     print("b"*st.count('b'))
     print("c"*st.count('c'))
@@ -99,4 +98,4 @@ while i > 0:
     print("x"*st.count('x'))
     print("y"*st.count('y'))
     print("z"*st.count('z'))
-    
+    i-=1
