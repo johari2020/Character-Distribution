@@ -40,7 +40,7 @@ Notice about this example:
 st = input("Please enter a string of text (the bigger the better): ") 
 import string
 print(str.ascii_lowercase)
-
+""""
 a = (st.count('a'))
 b = (st.count('b'))
 c = (st.count('c'))
@@ -66,4 +66,4 @@ w = (st.count('v'))
 x = (st.count('w'))
 y = (st.count('x'))
 z = (st.count('y'))
-
+""""
