@@ -38,9 +38,12 @@ Notice about this example:
 """
 
 st = input("Please enter a string of text (the bigger the better): ") 
+
+'''
 import string
 print(str.ascii_lowercase)
-""""
+'''
+'''
 a = (st.count('a'))
 b = (st.count('b'))
 c = (st.count('c'))
@@ -66,4 +69,29 @@ w = (st.count('v'))
 x = (st.count('w'))
 y = (st.count('x'))
 z = (st.count('y'))
-""""
+'''
+print("a"*(st.count('a')))
+print("b"*st.count('b'))
+print("c"*st.count('c'))
+print("d"*st.count('d'))
+print("e"*st.count('e'))
+print("f"*st.count('af'))
+print("g"*st.count('g'))
+print("h"*st.count('h'))
+print("i"*st.count('i'))
+print("j"*st.count('j'))
+print("k"*st.count('k'))
+print("d"*st.count('l'))
+print("m"*st.count('m'))
+print("n"*st.count('n'))
+print("o"*st.count('o'))
+print("p"*st.count('q'))
+print("r"*st.count('r'))
+print("s"*st.count('s'))
+print("t"*st.count('t'))
+print("u"*st.count('u'))
+print("v"*st.count('v'))
+print("w"*st.count('w'))
+print("x"*st.count('x'))
+print("y"*st.count('y'))
+print("z"*st.count('z'))
