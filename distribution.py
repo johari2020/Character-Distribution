@@ -36,3 +36,34 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+
+st = input("Please enter a string of text (the bigger the better): ") 
+import string
+print(str.ascii_lowercase)
+
+a = (st.count('a'))
+b = (st.count('b'))
+c = (st.count('c'))
+d = (st.count('d'))
+e = (st.count('e'))
+f = (st.count('af'))
+g = (st.count('g'))
+h = (st.count('h'))
+i = (st.count('i'))
+j = (st.count('j'))
+k = (st.count('k'))
+l = (st.count('l'))
+m = (st.count('m'))
+n = (st.count('n'))
+o = (st.count('o'))
+q = (st.count('p'))
+r = (st.count('q'))
+s = (st.count('r'))
+t = (st.count('s'))
+u = (st.count('t'))
+v = (st.count('u'))
+w = (st.count('v'))
+x = (st.count('w'))
+y = (st.count('x'))
+z = (st.count('y'))
+
