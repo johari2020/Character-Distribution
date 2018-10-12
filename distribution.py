@@ -39,7 +39,7 @@ Notice about this example:
 
 rr = input("Please enter a string of text (the bigger the better): ") 
 
-st=rr.lower
+st=rr.lower()
 
 print(st)
 i=len(st)
@@ -71,7 +71,7 @@ while i > 0:
         print("k"*(st.count('k')))
     if st.count('k')==i:
         print("l"*(st.count('l')))
-    if st.count('l')==i:
+    if st.count('m')==i:
         print("m"*(st.count('m')))
     if st.count('n')==i:
         print("n"*(st.count('n')))
