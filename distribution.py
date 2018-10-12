@@ -41,7 +41,6 @@ rr = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "' +rr+ '" is: ')
 st=rr.lower()
 
-print(st)
 i=len(st)
 l=list(range(1,i))
 
