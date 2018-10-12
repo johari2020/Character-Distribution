@@ -38,7 +38,7 @@ Notice about this example:
 """
 
 rr = input("Please enter a string of text (the bigger the better): ") 
-
+print("The distribution of characters in " +rr+ "is: ")
 st=rr.lower()
 
 print(st)
