@@ -44,7 +44,7 @@ st=rr.lower()
 print(st)
 i=len(st)
 l=list(range(1,i))
-print(l)
+
 
 while i > 0:
     if st.count('a')==i:
