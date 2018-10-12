@@ -68,7 +68,7 @@ while i > 0:
         print("j"*(st.count('j')))
     if st.count('k')==i:
         print("k"*(st.count('k')))
-    if st.count('k')==i:
+    if st.count('l')==i:
         print("l"*(st.count('l')))
     if st.count('m')==i:
         print("m"*(st.count('m')))
