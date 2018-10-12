@@ -71,12 +71,66 @@ y = (st.count('x'))
 z = (st.count('y'))
 '''
 i=len(st)
+l=list(range(1,i))
+print(l)
 
 while i > 0:
-    print("a"*(st.count('a')))
-    print("b"*st.count('b'))
-    print("c"*st.count('c'))
-    print("d"*st.count('d'))
+    if st.count('a')==i:
+        print("a"*(st.count('a')))
+    if st.count('b') == i:
+        print("b"*(st.count('b')))
+    if st.count('c')==i:
+        print("c"*(st.count('c')))
+    if st.count('d')==i:
+        print("d"*(st.count('d')))
+    if st.count('e')==i:
+        print("e"*(st.count('e')))
+    if st.count('f')==i:
+        print("f"*(st.count('f')))
+    if st.count('g')==i:
+        print("g"*(st.count('g')))
+    if st.count('h')==i:
+        print("h"*(st.count('h')))
+    if st.count('i')==i:
+        print("i"*(st.count('i')))
+    if st.count('j')==i:
+        print("j"*(st.count('j')))
+    if st.count('k')==i:
+        print("k"*(st.count('k')))
+    if st.count('k')==i:
+        print("l"*(st.count('l')))
+    if st.count('l')==i:
+        print("m"*(st.count('m')))
+    if st.count('n')==i:
+        print("n"*(st.count('n')))
+    if st.count('o')==i:
+        print("o"*(st.count('o')))
+    if st.count('p')==i:
+        print("p"*(st.count('p')))
+    if st.count('q')==i:
+        print("q"*(st.count('q')))
+    if st.count('r')==i:
+        print("r"*(st.count('r')))
+    if st.count('s')==i:
+        print("s"*(st.count('s')))
+    if st.count('t')==i:
+        print("t"*(st.count('t')))
+    if st.count('u')==i:
+        print("u"*(st.count('u')))
+    if st.count('v')==i:
+        print("v"*(st.count('v')))
+    if st.count('w')==i:
+        print("w"*(st.count('w')))
+    if st.count('x')==i:
+        print("x"*(st.count('x')))
+    if st.count('y')==i:
+        print("y"*(st.count('y')))
+    if st.count('z')==i:
+        print("z"*(st.count('z')))
+        
+    i-=1
+'''
+print("d"*st.count('d'))
     print("e"*st.count('e'))
     print("f"*st.count('af'))
     print("g"*st.count('g'))
@@ -98,4 +152,4 @@ while i > 0:
     print("x"*st.count('x'))
     print("y"*st.count('y'))
     print("z"*st.count('z'))
-    i-=1
+'''
